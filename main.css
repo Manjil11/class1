@@ -1,0 +1,10 @@
+a[target="_self"]{
+    background-color: rgb(245, 242, 242);
+    color: gray;
+    font-size: 16px;
+}
+a[target="_blank"]{
+    background-color: rgb(67, 67, 67);
+    color: green;
+    font-size: 16px;
+}
