@@ -8,16 +8,18 @@
 </head>
 <body>
     <p id="demo"></p>
-    <script>
-        function myfunction(i,b){
-            for (var i;i<b;i++){
-                var x= i*2;
-                document.write(x)
-            
-            
-        }
-        document.getElementById("demo").innerHTML=myfunction(1,10);
-    </script>
 
+    <script>
+        function oddeven(a){
+            if(a%2==0){
+               return "even"
+            }
+            else{
+                return "odd"
+            }
+        }
+        document.getElementById("demo").innerHTML=oddeven(3);
+
+    </script>
 </body>
 </html>

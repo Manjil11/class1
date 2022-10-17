@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let day;
+    
+    switch (new Date().getMonth()) {
+    case 0:    
+      day = "jan";
+        break;  
+    case 1:
+        day = "feb";
+        break;
+    case 2:
+        day = "march";
+        break;
+    case 3:
+        day = "apr";
+        break;
+    case 4:
+        day = "may";
+        break;    
+    case 5:
+        day = "june";
+        break;
+    case  6:
+        day = "july";
+        break;
+    case  7:
+        day = "aug";
+        break;
+     case  8:
+        day = "sep";
+        break;
+    case  9:
+        day = "oct";
+        break;
+    case  10:
+        day = "nov";
+        break;
+    case  11:
+        day = "dec";
+        break;
+}
+
+document.getElementById("demo").innerHTML = "Today is " + day;
+
+    </script>
+</body>
+</html>
